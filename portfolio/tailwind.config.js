@@ -4,9 +4,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "slidebar": "#2e1e45",
-        "text-slidebar": "#ccbca1",
-        "baseColor": "#612a52",
+        "slidebar": "#171B26",
+        "text-slidebar": "white",
+        "baseColor": "#c5ceae",
+      },
+      backgroundImage: {
+        'base-back': "url('/src/images/back-base.jpg')"
       }
     },
   },

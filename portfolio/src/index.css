@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#cv:hover{
+    background-color: rgba(23, 27, 38, .7);
+}
+
+#linkendin:hover, #email:hover, #wss:hover{
+    transform: translateY(-5px);
+}
